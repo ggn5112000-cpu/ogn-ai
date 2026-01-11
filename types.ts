@@ -1,5 +1,5 @@
 
-export type AppView = 'home' | 'generator' | 'gallery' | 'pricing' | 'dashboard' | 'contact';
+export type AppView = 'home' | 'generator' | 'video' | 'edit' | 'gallery' | 'pricing' | 'dashboard';
 
 export interface GeneratedImage {
   id: string;
@@ -7,6 +7,15 @@ export interface GeneratedImage {
   prompt: string;
   style: string;
   aspectRatio: string;
+  timestamp: number;
+  model: string;
+}
+
+export interface GeneratedVideo {
+  id: string;
+  url: string;
+  prompt: string;
+  aspectRatio: '16:9' | '9:16';
   timestamp: number;
 }
 

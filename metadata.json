@@ -1,6 +1,6 @@
 {
-  "name": "OGN AI - Image Generator",
-  "description": "A professional AI-powered image generation platform that turns text prompts into stunning visual art using Gemini's advanced image models.",
+  "name": "OGN Studio ai.com",
+  "description": "Professional AI-powered creative platform for Image, Video, and Audio generation using Gemini's latest models.",
   "requestFramePermissions": [
     "camera"
   ]
