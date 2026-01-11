@@ -1,0 +1,7 @@
+{
+  "name": "OGN AI - Image Generator",
+  "description": "A professional AI-powered image generation platform that turns text prompts into stunning visual art using Gemini's advanced image models.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
